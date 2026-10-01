@@ -15,6 +15,7 @@ const GOAL_CATEGORIES = {
   CUSTOM: 'custom',
 };
 
+
 /**
  * Predefined template titles per wellness category
  * Useful for frontend dropdowns and backend validation
