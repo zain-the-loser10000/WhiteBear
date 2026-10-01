@@ -10,7 +10,7 @@ const CONFIG = {
   // BACKEND_API_URL: 'http://10.0.2.2:8000/api/v1',
 
   /** Production Backend API Url */
-  BACKEND_API_URL: 'https://white-bear-backend.vercel.app/api/v1',
+  BACKEND_API_URL: 'https://white-bear-backend-sepia.vercel.app/api/v1',
 };
 
 export default CONFIG;
