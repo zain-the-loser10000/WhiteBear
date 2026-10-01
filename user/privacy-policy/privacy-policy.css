@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;500;600;700;800;900&display=swap');
+
+:root {
+  --primary: #627a80; /* Core White Bear Brand tone */
+  --secondary: #5c74ce; /* Dashboard settings slate blue */
+  --tertiary: #0a1d2d; /* Text Primary depth */
+  --dark: #111111; /* Hard contrast header typography */
+  --background: #f8fafa; /* Application backdrop tone */
+  --gray: #eaeaea; /* Separator border tint */
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Nunito', system-ui, sans-serif;
+  background: linear-gradient(135deg, #f8fafa 0%, #dde0e5 100%);
+  color: #444444;
+  line-height: 1.75;
+  padding: 40px 20px;
+  min-height: 100vh;
+}
+
+.container {
+  max-width: 820px;
+  margin: 0 auto;
+  background: white;
+  border-radius: 24px;
+  box-shadow: 0 20px 60px rgba(10, 29, 45, 0.08);
+  overflow: hidden;
+}
+
+/* Header */
+.header {
+  background: linear-gradient(135deg, var(--primary), var(--tertiary));
+  color: white;
+  padding: 45px 40px 40px;
+  text-align: center;
+  position: relative;
+}
+
+.header::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 6px;
+  background: linear-gradient(to right, var(--secondary), var(--primary));
+}
+
+.logo-container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 16px;
+}
+
+.app-logo {
+  width: 110px;
+  height: 110px;
+  border-radius: 24px;
+  box-shadow: 0 8px 25px rgba(10, 29, 45, 0.2);
+  object-fit: contain;
+  background: white;
+  padding: 10px;
+  border: 4px solid rgba(255, 255, 255, 0.9);
+}
+
+.app-name {
+  font-size: 48px;
+  font-weight: 900;
+  letter-spacing: -1.5px;
+  margin-bottom: 8px;
+  color: white;
+}
+
+.tagline {
+  font-size: 18px;
+  opacity: 0.92;
+  font-weight: 500;
+  color: white;
+  text-align: center;
+}
+
+/* Content */
+.content {
+  padding: 50px 45px;
+}
+
+h1 {
+  font-size: 32px;
+  font-weight: 800;
+  text-align: center;
+  margin-bottom: 8px;
+  color: var(--dark);
+}
+
+.effective-date {
+  text-align: center;
+  color: #666666;
+  margin-bottom: 35px;
+  font-size: 16px;
+}
+
+h2 {
+  font-size: 20px;
+  font-weight: 700;
+  margin: 42px 0 14px;
+  padding-bottom: 10px;
+  border-bottom: 2px solid var(--primary);
+  color: var(--dark);
+  letter-spacing: -0.3px;
+}
+
+p {
+  font-size: 15px;
+  color: #444444;
+  margin-bottom: 18px;
+  text-align: left;
+}
+
+strong {
+  color: var(--dark);
+}
+
+.notice-text {
+  font-size: 14px;
+  color: #888888;
+  line-height: 1.6;
+  font-style: italic;
+  margin-top: 30px;
+  padding-top: 20px;
+  border-top: 1px solid var(--gray);
+}
+
+/* Email Link */
+.email {
+  color: var(--secondary);
+  font-weight: 600;
+  text-decoration: none;
+  transition: color 0.2s ease-in-out;
+}
+
+.email:hover {
+  color: var(--primary);
+  text-decoration: underline;
+}
+
+/* Footer */
+.footer {
+  background: #f8fafa;
+  align-self: center;
+  padding: 25px;
+  color: #a3a6a8;
+  font-size: 15px;
+  border-top: 1px solid var(--gray);
+}
+
+/* Responsive Structural Adjustments */
+@media (max-width: 600px) {
+  .content,
+  .header {
+    padding-left: 25px;
+    padding-right: 25px;
+  }
+
+  .app-name {
+    font-size: 40px;
+  }
+}

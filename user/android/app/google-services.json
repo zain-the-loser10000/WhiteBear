@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "547137656952",
+    "project_id": "white-bear-73b0d",
+    "storage_bucket": "white-bear-73b0d.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:547137656952:android:33e9939d01875cd7c2358d",
+        "android_client_info": {
+          "package_name": "com.whitebears"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDnGYuPRdgMEdGogZH606GVzWBhEKDjCXc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
